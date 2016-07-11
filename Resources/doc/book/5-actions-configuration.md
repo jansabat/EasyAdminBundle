@@ -214,6 +214,8 @@ Then, define any of the following options to customize the action:
   * `label`, is the text displayed in the button or link associated with the
     action. If not defined, the action label is the *humanized* version of its
     `name` option.
+  * `title`, is the action button title (e.g. when button icon without text
+    label is set).
   * `css_class`, is the CSS class or classes applied to the link or button used
     to render the action.
   * `icon`, is the name of the FontAwesome icon displayed next to the link or

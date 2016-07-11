@@ -31,6 +31,8 @@ class ActionConfigPass implements ConfigPassInterface
         'css_class' => null,
         // the name of the FontAwesome icon to display next to the 'label' (doesn't include the 'fa-' prefix)
         'icon' => null,
+        // action title (e.g. when you use icon with empty label)
+        'title' => null,
     );
 
     public function process(array $backendConfig)
